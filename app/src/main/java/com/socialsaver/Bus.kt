@@ -7,7 +7,9 @@ import android.os.Looper
 /** Small shared state so the floating button hides itself while dialogs / captures are active. */
 object Bus {
     @Volatile var capturing = false
+        private set
     @Volatile var dialogOpen = false
+        private set
     var listener: (() -> Unit)? = null
 
     fun changed() { Handler(Looper.getMainLooper()).post { listener?.invoke() } }
