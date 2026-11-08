@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Social Saver</string>
+    <string name="tile_label">Social Saver</string>
+    <string name="acc_desc">Shows the floating save button on top of Instagram and Facebook. It does not read your screen content.</string>
+</resources>

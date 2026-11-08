@@ -1,0 +1,6 @@
+<resources>
+    <style name="Sheet" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowMinWidthMajor">92%</item>
+        <item name="android:windowMinWidthMinor">92%</item>
+    </style>
+</resources>
